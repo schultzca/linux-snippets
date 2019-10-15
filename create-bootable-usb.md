@@ -36,7 +36,10 @@ loop7                   7:7    0  44.2M  1 loop /snap/gtk-common-themes/1353
 loop5                   7:5    0 124.3M  1 loop /snap/vscode/93
 loop3                   7:3    0 146.6M  1 loop /snap/slack/17
 ```
+3. Unmount the device.
 
-3. Load ISO onto flash drive.
+`sudo umount /dev/sdd1`
+
+4. Load ISO onto flash drive.
 
 `sudo dd bs=4M if=<path to iso> of=/dev/sd<id> conv=fdatasync status=progress`
