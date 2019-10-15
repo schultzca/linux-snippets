@@ -11,7 +11,7 @@ loop15                  7:15   0  89.1M  1 loop /snap/core/7917
 loop1                   7:1    0 218.9M  1 loop /snap/gimp/165
 loop13                  7:13   0 124.8M  1 loop /snap/vscode/87
 sdd                     8:48   1   3.9G  0 disk 
-*└─sdd1                  8:49   1   3.9G  0 part*
+└─sdd1                  8:49   1   3.9G  0 part <----------- USB DEVICE
 loop11                  7:11   0  54.5M  1 loop /snap/core18/1192
 sdb                     8:16   0 465.8G  0 disk 
 └─sdb1                  8:17   0 465.8G  0 part 
